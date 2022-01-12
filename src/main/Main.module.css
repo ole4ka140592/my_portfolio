@@ -3,6 +3,16 @@
     background-color: #ceca73;
 }
 
+.container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .text {
     width: 350px;
     background-color: white;
@@ -13,4 +23,6 @@
     height: 400px;
     background-color: white;
 }
+
+
 
