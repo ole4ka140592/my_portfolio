@@ -1,6 +1,6 @@
 .title {
     height: 80px;
-    background-color: #7070bb;
+    background-color: red;
     display: flex;
     justify-content: flex-end;
     align-items: center;
