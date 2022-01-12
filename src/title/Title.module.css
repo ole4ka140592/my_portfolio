@@ -1,0 +1,7 @@
+.title {
+    height: 80px;
+    background-color: #7070bb;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
