@@ -1,0 +1,22 @@
+.footerBlock {
+
+    background-color: fuchsia;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footers {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer {
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+}
