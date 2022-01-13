@@ -14,6 +14,9 @@ export const Skills = () => {
                            description="I know JS "/>
                     <Skill title="HTML" description="I know HTML"/>
                     <Skill title="CSS" description="I know CSS"/>
+                    <Skill title="CSS" description="I know CSS"/>
+                    <Skill title="CSS" description="I know CSS"/>
+                    <Skill title="CSS" description="I know CSS"/>
                 </div>
             </div>
         </div>

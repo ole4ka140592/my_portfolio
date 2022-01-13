@@ -1,0 +1,21 @@
+import React from 'react';
+import style from './Footer.css';
+import styleContainer from "../common/styles/Container.module.css";
+
+
+export const Footer = () => {
+    return (
+        <div className={style.contactsBlock}>
+            <div className={`${styleContainer.container} ${style.contactsContainer}`}>
+                <h2 className={style.title}>Contacts</h2>
+                <form className={style.contacts}>
+                    <input type="text"/>
+                    <input type="text"/>
+                    <textarea/>
+                </form>
+                <a className={style.button}>Отправить</a>
+            </div>
+        </div>
+    )
+}
+
