@@ -14,5 +14,28 @@
     background-color: white;
 }
 
+.hi {
+    font-family: Jost,Arial,Helvetica,sans-serif;
+    color: #333;
+    font-size: 26px;
+    line-height: 1.37;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 50px;
+    font-family: Jost,Arial,Helvetica,sans-serif;
+    color: #333;
+
+}
+
+.frontendDeveloper {
+    font-family: Jost,Arial,Helvetica,sans-serif;
+    color: #333;
+    font-size: 28px;
+    line-height: 1.37;
+    font-weight: 400;
+}
+
 
 
