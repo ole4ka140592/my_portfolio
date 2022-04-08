@@ -2,19 +2,39 @@ import React from 'react';
 import style from './Projects.module.css';
 import styleContainer from "../common/styles/Container.module.css";
 import {Project} from "./project/Project";
+import {Title_h2} from "../common/components/title/Title_h2";
+import todolistImage from "../assets/image/todolist.jpg"
+import socialNetworkImage from "../assets/image/socialNetwork4.png"
+
 
 export const Projects = () => {
+
+    const socialNetwork = {
+        backgroundImage: `url(${socialNetworkImage})`
+        // backgroundImage: 'url(' + "../assets/image/socialNetwork.jpg" + ')',
+    }
+
+    const todolist = {
+        backgroundImage: `url(${todolistImage})`
+        // backgroundImage: 'url(' + "../assets/image/todolist.jpg" + ')',
+    }
+
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <div className={style.title}>
-                    <h2>Projects</h2>
+                <Title_h2 text={"Projects"}/>
+                <div className={style.descriptionAllProjects}>
+                    Showcasing all my work while learning Front-end
                 </div>
-
                 <div className={style.projects}>
-                    <Project title="TODOLIST" description='Project description Project description Project description Project description Project description Project description Project description'/>
-                    <Project title="SOCIAL NETWORK" description='Project description'/>
-
+                    <Project style={todolist}
+                             href={"https://ole4ka140592.github.io/Todolist_training/#/login"}
+                             title="TODOLIST"
+                             description='Project description Project description Project description Project description Project description Project description Project description'/>
+                    <Project style={socialNetwork}
+                             href={"https://ole4ka140592.github.io/Social_network_na_TS/#/"}
+                             title="SOCIAL NETWORK"
+                             description='Project description roject description Project description Project description Project description Project description Project'/>
                 </div>
             </div>
         </div>

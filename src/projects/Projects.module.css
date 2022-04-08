@@ -1,6 +1,6 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: #00000000;
+    background: #f8f8f8;;
 }
 
 .projectsContainer {
@@ -8,34 +8,14 @@
     justify-content: flex-start;
 }
 
-.title {
-    background-color: magenta;
-    margin-bottom: 35px;
-    position: relative;
-}
-
-.title h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    letter-spacing: 1px;
-    line-height: 30px;
-    text-transform: uppercase;
-    color: #262626;
-    margin: 0;
-    box-sizing: border-box;
+.descriptionAllProjects {
+    font-style: italic;
+    margin: 0 0 10px 0;
+    color: #737272;
+    font-size: 14px;
+    line-height: 22px;
     text-align: center;
-}
-
-.title::before {
-    content: "";
-    background: #232323 none repeat scroll 0 0;
-    bottom: -15px;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    top: auto;
-    transform: translateY(0px) translateX(-50%);
-    width: 75px;
+    width: 700px;
 }
 
 .projects {

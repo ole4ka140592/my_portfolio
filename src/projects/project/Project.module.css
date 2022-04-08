@@ -1,14 +1,13 @@
 .project {
-    border: 1px solid;
-    width: 400px;
-    background-color: #f2f2f2;
+    /*border: 1px solid;*/
+    border: 1px solid #f0f0f0;
+    width: 450px;
+    background: #fff none repeat scroll 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
-    font-family: Jost, Arial, Helvetica, sans-serif;
-    color: #333;
     font-size: 22px;
     line-height: 1.37;
     font-weight: 400;
@@ -21,17 +20,59 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    position: relative;
 }
+
+/*.img::before {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    background-color: black;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    opacity: 0.4;*/
+/*}*/
 
 .button {
 
 }
 
-.title {
-    width: 100%;
+.projectInfo {
 
 }
 
-.description {
+.title {
+    width: 100%;
+}
 
+.projectTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #262626;
+    margin-top: 0;
+    line-height: 1.1;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #737272;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding: 0 20px;
 }

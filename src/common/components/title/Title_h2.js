@@ -1,11 +1,11 @@
 import React from 'react';
-import style from './Title_h2.css';
+import style from './Title_h2.module.css'
 
 
-export const Title_h2 = () => {
+export const Title_h2 = (props) => {
     return (
         <div className={style.title}>
-            <h2>Projects</h2>
+            <h2>{props.text}</h2>
         </div>
     )
 }
