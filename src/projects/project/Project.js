@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Project.module.css';
+import style from './Project.module.scss';
 
 
 export const Project = (props) => {
@@ -12,7 +12,8 @@ export const Project = (props) => {
             </div>
             <div className={style.projectInfo}>
                 <div className={style.title}>
-                    <h3 className={style.projectTitle}>{props.title}</h3>
+                    <h3 className={style.projectTitle}> <a
+                        href={props.href} title={"go to project"}>{props.title}</a></h3>
                 </div>
                 <p className={style.description}>{props.description}</p>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Projects.module.css';
+import style from './Projects.module.scss';
 import styleContainer from "../common/styles/Container.module.css";
 import {Project} from "./project/Project";
 import {Title_h2} from "../common/components/title/Title_h2";
@@ -11,12 +11,9 @@ export const Projects = () => {
 
     const socialNetwork = {
         backgroundImage: `url(${socialNetworkImage})`
-        // backgroundImage: 'url(' + "../assets/image/socialNetwork.jpg" + ')',
     }
-
     const todolist = {
         backgroundImage: `url(${todolistImage})`
-        // backgroundImage: 'url(' + "../assets/image/todolist.jpg" + ')',
     }
 
     return (

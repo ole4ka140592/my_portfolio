@@ -1,0 +1,28 @@
+.projectsBlock {
+    min-height: 100vh;
+    background: #f8f8f8;
+    .projectsContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        .descriptionAllProjects {
+            font-style: italic;
+            margin: 0 0 10px 0;
+            color: #737272;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            width: 700px;
+        }
+        .projects {
+            border: 1px solid;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            @media screen and (max-width: 1133px) {
+                justify-content: center;
+            }
+        }
+    }
+}
