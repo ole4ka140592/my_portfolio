@@ -3,4 +3,20 @@
     width: 300px;
     display: flex;
     justify-content: space-between;
+
+
+    font-weight: bold;
+    text-decoration: none;
+
+    font-family: "Kanit", sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #232332;
+
+
+}
+
+.nav:visited {
+    color: #232332;
 }
