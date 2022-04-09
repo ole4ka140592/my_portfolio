@@ -1,22 +1,27 @@
 .nav {
     border: 1px solid red;
-    width: 300px;
+    width: 400px;
     display: flex;
     justify-content: space-between;
-
-
     font-weight: bold;
-    text-decoration: none;
-
-    font-family: "Kanit", sans-serif;
-    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #232332;
-
-
 }
 
 .nav:visited {
+    color: #232332;
+    text-decoration: none;
+}
+
+.nav:hover {
+    text-decoration: none;
+    color: #232332;
+}
+
+.navLink {
+    text-decoration: none;
     color: #232332;
 }

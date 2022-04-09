@@ -14,7 +14,7 @@ export const Footer = () => {
                     <div className={style.footer}></div>
                     <div className={style.footer}></div>
                 </div>
-                <span>©All rights reserved</span>
+                <span>©All rights reserved, 2022</span>
             </div>
         </div>
     )

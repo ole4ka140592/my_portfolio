@@ -20,18 +20,16 @@ export const Projects = () => {
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title_h2 text={"Projects"}/>
-                <div className={style.descriptionAllProjects}>
-                    Showcasing all my work while learning Front-end
-                </div>
                 <div className={style.projects}>
                     <Project style={todolist}
                              href={"https://ole4ka140592.github.io/Todolist_training/#/login"}
                              title="TODOLIST"
-                             description='Project description Project description Project description Project description Project description Project description Project description'/>
+                             description='A todolist program for keeping a list of to-dos or tasks.          TypeScript, React, Redux, Thunk, Formik, CSS,  Material UI, Unit tests, TDD, Storybook, Postman'/>
                     <Project style={socialNetwork}
                              href={"https://ole4ka140592.github.io/Social_network_na_TS/#/"}
                              title="SOCIAL NETWORK"
-                             description='Project description roject description Project description Project description Project description Project description Project'/>
+                             description='Analogue of a social network with login, user profile and other users. TypeScript, React, Redux, Thunk, Redux-form, CSS, Unit tests. Organizing correct app
+architecture'/>
                 </div>
             </div>
         </div>

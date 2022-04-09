@@ -1,3 +1,5 @@
+@import "../../common/styles/sass/variables";
+
 .project {
     /*border: 1px solid;*/
     border: 1px solid #f0f0f0;
@@ -23,6 +25,7 @@
         background-repeat: no-repeat;
         margin-bottom: 10px;
         position: relative;
+        //background-image: url();
         /*.&::before {*/
         /*    position: absolute;*/
         /*    content: "";*/
@@ -46,10 +49,13 @@
                 margin-bottom: 5px;
                 letter-spacing: 1px;
                 text-transform: uppercase;
-                color: #262626;
+                color: $pramaryColor;
                 margin-top: 0;
                 line-height: 1.1;
-                /*text-decoration: none;*/
+                .link {
+                    //text-decoration: none;
+                    color: $pramaryColor;
+                }
             }
 
         }
@@ -57,7 +63,7 @@
             font-family: 'Open Sans', sans-serif;
             font-weight: normal;
             font-style: normal;
-            color: #737272;
+            color: $textColor;
             font-size: 14px;
             line-height: 22px;
             margin: 0 0 10px;
@@ -67,13 +73,20 @@
             margin-inline-start: 0;
             margin-inline-end: 0;
             padding: 0 20px;
+            .linkDescription {
+                text-decoration: none;
+                color: $textColor;
+            }
         }
 
     }
 }
 
 
-
+.div {
+    width: 100%;
+    height: 100%;
+}
 
 
 

@@ -1,11 +1,12 @@
 .footerBlock {
-
-    background-color: fuchsia;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
 }
 
 .footerContainer {
     flex-direction: column;
     justify-content: flex-start;
+    font-size: 15px;
 }
 
 .footers {

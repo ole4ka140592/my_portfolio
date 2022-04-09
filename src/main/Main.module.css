@@ -1,6 +1,8 @@
+@import "../common/styles/sass/variables.scss";
+
 .mainBlock {
     height: 100vh;
-    background-color: orangered;
+    background-color:#fff;
 }
 
 .text {
@@ -12,6 +14,7 @@
     width: 300px;
     height: 400px;
     background-color: white;
+    border: 1px solid;
 }
 
 .hi {
@@ -23,15 +26,17 @@
 }
 
 .name {
-    font-size: 50px;
-    font-family: Jost,Arial,Helvetica,sans-serif;
-    color: #333;
+    font-size: 40px;
+    /*font-family: Jost,Arial,Helvetica,sans-serif;*/
+    color: #262626;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .frontendDeveloper {
-    font-family: Jost,Arial,Helvetica,sans-serif;
-    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: Jost,Arial,Helvetica,sans-serif;*/
+    color: #262626;
     font-size: 28px;
     line-height: 1.37;
     font-weight: 400;

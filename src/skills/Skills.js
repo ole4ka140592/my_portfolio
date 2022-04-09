@@ -13,7 +13,7 @@ export const Skills = () => {
                 <div className={style.skills}>
                     <Skill title="JS"
                            description="I know JS "/>
-                    <Skill title="HTML" description="I know HTML ffffff ffffffff fffffffffffffff ffffffff fffffff eeeeeeeeee eeeeeeeeeeeee"/>
+                    <Skill title="HTML" description="I know HTML"/>
                     <Skill title="CSS" description="I know CSS"/>
                     <Skill title="CSS" description="I know CSS"/>
                     <Skill title="CSS" description="I know CSS"/>

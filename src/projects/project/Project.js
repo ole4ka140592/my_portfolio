@@ -5,17 +5,17 @@ import style from './Project.module.scss';
 export const Project = (props) => {
     return (
         <div className={style.project}>
-            <div className={style.img} style={props.style}>
-                <a
-                    href={props.href}
-                    className={style.button} >Посмотреть</a>
-            </div>
+            <a className={style.img} style={props.style} href={props.href} title={"Link go to GitHub"}>
+            </a>
             <div className={style.projectInfo}>
                 <div className={style.title}>
                     <h3 className={style.projectTitle}> <a
-                        href={props.href} title={"go to project"}>{props.title}</a></h3>
+                        href={props.href} className={style.
+                        link} title={"Link go to GitHub"}>{props.title}</a></h3>
                 </div>
-                <p className={style.description}>{props.description}</p>
+                <p className={style.description}><a
+                    href={props.href} className={style.
+                    linkDescription} title={"Link go to GitHub"}>{props.description}</a></p>
             </div>
         </div>
     )
