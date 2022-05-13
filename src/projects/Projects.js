@@ -37,7 +37,9 @@ architecture'/>
                     <Project style={brainstorm}
                              href={"https://ole4ka140592.github.io/fridayProject/#/login"}
                              title="BRAINSTORM"
-                             description=''/>
+                             description='
+Program for studying cards. Team developement, refactoring, bug fixing, deploying. TypeScript, React, Redux, Thunk, Axios, CSS, Unit tests.
+                             '/>
                 </div>
             </div>
         </div>
