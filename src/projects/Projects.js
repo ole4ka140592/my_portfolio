@@ -5,7 +5,7 @@ import {Project} from "./project/Project";
 import {Title_h2} from "../common/components/title/Title_h2";
 import todolistImage from "../assets/image/todolist.jpg"
 import socialNetworkImage from "../assets/image/socialNetwork4.png"
-
+import brainstormImage from "../assets/image/brainstorm.png"
 
 export const Projects = () => {
 
@@ -14,6 +14,10 @@ export const Projects = () => {
     }
     const todolist = {
         backgroundImage: `url(${todolistImage})`
+    }
+
+    const brainstorm = {
+        backgroundImage: `url(${brainstormImage})`
     }
 
     return (
@@ -30,6 +34,10 @@ export const Projects = () => {
                              title="SOCIAL NETWORK"
                              description='Analogue of a social network with login, user profile and other users. TypeScript, React, Redux, Thunk, Redux-form, CSS, Unit tests. Organizing correct app
 architecture'/>
+                    <Project style={brainstorm}
+                             href={"https://ole4ka140592.github.io/fridayProject/#/login"}
+                             title="BRAINSTORM"
+                             description=''/>
                 </div>
             </div>
         </div>
