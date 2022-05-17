@@ -17,6 +17,28 @@
     border: 1px solid;
 }
 
+@media screen and (max-width: 815px) {
+    .photo {
+        /*width: 50%;*/
+        /*height: 60%;*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text {
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .photo {
+        width: 99%;
+        height: 55%;
+    }
+}
+
 .hi {
     font-family: Jost,Arial,Helvetica,sans-serif;
     color: #333;
