@@ -8,7 +8,20 @@
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 5px;
+}
 
+@media screen and (max-width: 1875px) {
+    .skill {
+        width: 30%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .skill {
+        width: 65%;
+        justify-content: center;
+    }
 }
 
 .icon {
