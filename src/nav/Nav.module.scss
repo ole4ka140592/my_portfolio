@@ -9,17 +9,29 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #232332;
+    &:visited {
+        color: #232332;
+        text-decoration: none;
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: #232332;
+    }
+
 }
 
-.nav:visited {
-    color: #232332;
-    text-decoration: none;
-}
 
-.nav:hover {
-    text-decoration: none;
-    color: #232332;
-}
+
+//.nav:visited {
+//    color: #232332;
+//    text-decoration: none;
+//}
+//
+//.nav:hover {
+//    text-decoration: none;
+//    color: #232332;
+//}
 
 .navLink {
     text-decoration: none;

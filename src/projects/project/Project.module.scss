@@ -1,7 +1,6 @@
 @import "../../common/styles/sass/variables";
 
 .project {
-  /*border: 1px solid;*/
   border: 1px solid #f0f0f0;
   width: 450px;
   background: #fff none repeat scroll 0 0;
@@ -26,27 +25,25 @@
     background-repeat: no-repeat;
     margin-bottom: 10px;
     position: relative;
+
     &::before {
       position: absolute;
       content: "";
-      background-color: black;
       top: 0;
       bottom: 0;
       left: 0;
       right: 0;
-      opacity: 0.4;
-    }
-    //.hover {
-    //  background-color: red;
-    //}
-
-    .button {
-
     }
   }
-
-  .img :before :hover {
-    background-color: red;
+  &:hover :before {
+    background-color: $bgColor;
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
   }
 
   .projectInfo {
@@ -64,11 +61,9 @@
         line-height: 1.1;
 
         .link {
-          //text-decoration: none;
           color: $pramaryColor;
         }
       }
-
     }
 
     .description {
@@ -91,14 +86,13 @@
         color: $textColor;
       }
     }
-
   }
 }
 
-.div {
-  width: 100%;
-  height: 100%;
-}
+//.div {
+//  width: 100%;
+//  height: 100%;
+//}
 
 
 

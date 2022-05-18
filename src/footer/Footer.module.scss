@@ -1,0 +1,28 @@
+@import "../common/styles/sass/variables";
+
+.footerBlock {
+    font-family: 'Montserrat', sans-serif;
+    background-color: $bgSecondColor;
+    .footerContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        font-size: 15px;
+        .footers {
+            width: 280px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .footer {
+                width: 60px;
+                height: 60px;
+                border: 1px solid;
+            }
+        }
+    }
+}
+
+
+
+
+
+
