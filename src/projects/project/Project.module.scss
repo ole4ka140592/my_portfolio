@@ -1,4 +1,5 @@
 @import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
 
 .project {
   border: 1px solid #f0f0f0;
@@ -51,15 +52,17 @@
       width: 100%;
 
       .projectTitle {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
+
+        //font-family: 'Montserrat', sans-serif;
+        //font-size: 20px;
+        //line-height: 1.1;
+        //color: $pramaryColor;
+
+        @include projectTitle(20px, 1.1);
         margin-bottom: 5px;
         letter-spacing: 1px;
         text-transform: uppercase;
-        color: $pramaryColor;
         margin-top: 0;
-        line-height: 1.1;
-
         .link {
           color: $pramaryColor;
         }
@@ -67,12 +70,16 @@
     }
 
     .description {
-      font-family: 'Open Sans', sans-serif;
+
+      //font-family: 'Open Sans', sans-serif;
+      //font-size: 14px;
+      //line-height: 22px;
+      //color: $textColor;
+
+      @include text(14px, 22px);
+
       font-weight: normal;
       font-style: normal;
-      color: $textColor;
-      font-size: 14px;
-      line-height: 22px;
       margin: 0 0 10px;
       display: block;
       margin-block-start: 1em;

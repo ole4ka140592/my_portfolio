@@ -1,6 +1,15 @@
 @import "./variables";
 
-@mixin text() {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+@mixin text($fontSize, $lineHeight) {
+  font-family: $descriptionFontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $textColor;
+}
+
+@mixin projectTitle($fontSize, $lineHeight) {
+  font-family: $projectTitleFontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $pramaryColor;
 }
