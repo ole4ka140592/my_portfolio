@@ -20,6 +20,30 @@
         height: 90%;
         justify-content: center;
       }
+
+      .input {
+        border: 1px solid #e5e5e5;
+        height: 45px;
+        padding: 0 15px;
+        margin-bottom: 3px;
+      }
+
+      .button {
+        border: 1px solid #000;
+        height: 45px;
+        font-size: 16px;
+        background-color: #000;
+        color: #fff;
+
+        &:hover {
+          cursor: pointer;
+          background: #3d6437;
+          border: 1px solid transparent;
+          color: #fff;
+        }
+
+
+      }
     }
   }
 }
