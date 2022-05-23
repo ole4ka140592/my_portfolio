@@ -27,6 +27,13 @@
     margin-bottom: 10px;
     position: relative;
 
+    //@media screen and (max-width: 360px) {
+    //  width: 100%;
+    //  height: 100%;
+    //  object-fit: cover;
+    //
+    //}
+
     &::before {
       position: absolute;
       content: "";
