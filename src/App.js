@@ -5,6 +5,7 @@ import {Skills} from "./skills/Skills";
 import {Projects} from "./projects/Projects";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
+import {Scroll} from "./common/scroll/Scroll";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Projects/>
             <Contacts/>
             <Footer/>
+            <Scroll/>
         </div>
     );
 }

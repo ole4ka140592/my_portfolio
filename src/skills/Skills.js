@@ -21,7 +21,7 @@ import postmanImage from "../assets/image/postman.png";
 
 export const Skills = () => {
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id={"skills"}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title_h2 text={"Skills"}/>
                 <div className={style.skills}>

@@ -12,6 +12,8 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #232332;
+
+
     &:visited {
         color: #232332;
         text-decoration: none;
@@ -25,6 +27,7 @@
     .navLink {
         text-decoration: none;
         color: #232332;
+        scroll-behavior: smooth;
     }
 }
 

@@ -1,18 +1,37 @@
 import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.css';
-import iImage from "../assets/image/I.jpg"
+import iImage from "../assets/image/I.jpg";
+
+
+
+
+
 
 export const Main = () => {
 
+    // const particlesOpt = {
+    //     "particles": {
+    //         "number": {
+    //             "value": 150,
+    //             "density": {
+    //                 "enable": true,
+    //                 "value_area": 800
+    //             }
+    //         }
+    //     }
+    // }
+
     return (
         <div className={style.mainBlock}>
+            {/*<Particles className={style.particlesOpt}/>*/}
             <div className={styleContainer.container}>
+
                 <div className={style.text}>
                     <h2 className={style.name}>I am Volha Mitsiurova</h2>
                     <p className={style.frontendDeveloper}>Front-end Developer</p>
                 </div>
-                <div className={style.photo}><img src={iImage} alt="photo" className={style.i}/></div>
+                <div className={style.photo}><img src={iImage} alt="i" className={style.i}/></div>
             </div>
         </div>
     )
