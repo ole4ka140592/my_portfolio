@@ -1,45 +1,96 @@
 @import "../common/styles/sass/variables";
 
+//.nav {
+//  width: 400px;
+//  display: flex;
+//  justify-content: space-between;
+//  font-weight: bold;
+//  font-family: $projectTitleFontFamily;
+//  font-size: 16px;
+//  letter-spacing: 1px;
+//  text-transform: uppercase;
+//  color: #232332;
+//
+//  &:visited {
+//    color: #232332;
+//    text-decoration: none;
+//  }
+//
+//
+//
+//  .activeClass {
+//    text-decoration: none;
+//    color: #232332;
+//
+//      &:hover {
+//          text-decoration: none;
+//          color: #3d6437;
+//          font-weight: bold;
+//          //color: #232332;
+//          cursor: pointer;
+//      }
+//
+//    //  &:after {
+//    //  content: '';
+//    //  position: absolute;
+//    //  bottom: 0;
+//    //  border-bottom: 2px solid;
+//    //  border-color: currentColor;
+//    //  left: 0;
+//    //  right: 0;
+//    //  opacity: 0;
+//    //  transition: transform 0.2s cubic-bezier(0.4, 0, 0.21, 1.1), opacity 0.2s cubic-bezier(0.4, 0, 0.21, 1.1);
+//    //  transform: scale(0);
+//    //}
+//
+//
+//  }
+//
+//}
+
+
 .nav {
-    //border: 1px solid red;
     width: 400px;
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-
     font-family: $projectTitleFontFamily;
     font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #232332;
+    position: relative;
+}
+
+.nav :hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.active :before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.nav :hover :before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    border-bottom: 2px solid;
+    border-color: currentColor;
+    width: 30%;
+    left: 0;
+    right: 0;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.21, 1.1), opacity 0.2s cubic-bezier(0.4, 0, 0.21, 1.1);
+}
 
 
-    &:visited {
-        color: #232332;
-        text-decoration: none;
-    }
-
-    &:hover {
-        text-decoration: none;
-        color: #232332;
-    }
-
-    .navLink {
-        text-decoration: none;
-        color: #232332;
-        scroll-behavior: smooth;
-    }
+.navLink {
+    text-decoration: none;
+    color: #232332;
 }
 
 
 
-//.nav:visited {
-//    color: #232332;
-//    text-decoration: none;
-//}
-//
-//.nav:hover {
-//    text-decoration: none;
-//    color: #232332;
-//}
+
 

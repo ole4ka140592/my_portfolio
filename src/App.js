@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import {Title} from "./title/Title";
 import {Main} from "./main/Main";
