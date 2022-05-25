@@ -11,7 +11,11 @@
   text-transform: uppercase;
   color: #232332;
 
-  & :hover {
+  @media screen and (max-width: 401px) {
+    display: none;
+  }
+
+  &:hover {
     cursor: pointer;
     font-weight: bolder;
   }

@@ -1,0 +1,81 @@
+@import "../../common/styles/sass/variables";
+
+.burgerNav {
+  width: 100%;
+  height: 100%;
+  //background-color: silver;
+  font-weight: bold;
+  font-family: $projectTitleFontFamily;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #232332;
+  position: relative;
+
+  & :hover {
+    cursor: pointer;
+    font-weight: bolder;
+  }
+
+  .burgerNavItems {
+    //display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    //display: none;
+    transform: translate(0, -150px);
+    //transition: 0.7s;
+    //transform: (0, 0);
+
+    .navLink {
+      &:hover::after {
+        width: 100%;
+        height: 1px;
+        content: '';
+        background: #232323;
+        position: absolute;
+        bottom: 0;
+        border-bottom: 2px solid;
+        border-color: currentColor;
+        left: 0;
+        right: 0;
+        transition: transform 0.2s cubic-bezier(0.4, 0, 0.21, 1.1), opacity 0.2s cubic-bezier(0.4, 0, 0.21, 1.1);
+      }
+    }
+  }
+
+  .show {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    transform: (0, 0);
+    //transform: translate(0, -150px);
+    transition: 0.7s;
+  }
+
+  .burgerBtn {
+    height: 30px;
+    width: 30px;
+    //background-color: grey;
+    position: absolute;
+    top: 24px;
+    right: 0;
+  }
+
+  @media screen and (min-width: 401px) {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
