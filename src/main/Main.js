@@ -27,12 +27,16 @@ export const Main = () => {
             <div className={styleContainer.container}>
 
                 <div className={style.text}>
-                    <h2 className={style.name}>I am Volha Mitsiurova</h2>
+                    <h2 className={style.name}>I am Olga Mitsiurova</h2>
                     <span className={style.frontendDeveloper}>
                         <ReactTypingEffect text="Front-end Developer"/>
                     </span>
                 </div>
-                <div className={style.photo}><img src={iImage} alt="i" className={style.i}/></div>
+                <div className={style.photo}>
+                    <div
+                        // src={iImage} alt="i"
+                         className={style.i}/>
+                </div>
             </div>
         </div>
     )
