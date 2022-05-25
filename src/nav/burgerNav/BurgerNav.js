@@ -33,7 +33,11 @@ export const BurgerNav = () => {
                 </Link>
 
             </div>
-            <div className={style.burgerBtn} onClick={onClickButton}>☰</div>
+            {menuIsOpen
+                ? <div className={style.burgerBtn} onClick={onClickButton}>✗</div>
+                : <div className={style.burgerBtn} onClick={onClickButton}>☰</div>
+            }
+            {/*<div className={style.burgerBtn} onClick={onClickButton}>☰</div>*/}
 
         </div>
     )
