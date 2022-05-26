@@ -1,6 +1,6 @@
-import {useCallback, useEffect, useState} from 'react';
-import s from './Scroll.module.scss';
-import React from 'react';
+import {useCallback, useEffect, useState} from "react";
+import s from "./Scroll.module.scss";
+import React from "react";
 
 
 export const Scroll = () => {

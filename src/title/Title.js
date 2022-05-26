@@ -1,5 +1,5 @@
-import React from 'react';
-import style from './Title.module.scss';
+import React from "react";
+import style from "./Title.module.scss";
 import {Nav} from "../nav/Nav";
 import {BurgerNav} from "../nav/burgerNav/BurgerNav";
 

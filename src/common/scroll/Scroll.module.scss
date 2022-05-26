@@ -4,7 +4,6 @@
   border: 1px solid #737272;
   border-radius: 50%;
   line-height: 0;
-  //border: none;
   text-transform: none;
   overflow: visible;
   position: fixed;
@@ -13,9 +12,10 @@
   margin-bottom: 5px;
   text-align: center;
   opacity: 0.4;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
 }
 
-.scroll:hover {
-  cursor: pointer;
-  opacity: 1;
-}
