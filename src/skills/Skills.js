@@ -18,29 +18,32 @@ import storybookImage from "../assets/image/storybook.png";
 import gitImage from "../assets/image/git.png";
 import gitHubImage from "../assets/image/github.png";
 import postmanImage from "../assets/image/postman.png";
+import Fade from 'react-reveal/Fade';
 
 export const Skills = () => {
     return (
         <div className={style.skillsBlock} id={"skills"}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title_h2 text={"Skills"}/>
-                <div className={style.skills}>
-                    <Skill title="React" icon={reactImage}/>
-                    <Skill title="TypeScript" icon={tsImage}/>
-                    <Skill title="JavaScript" icon={jsImage}/>
-                    <Skill title="Redux" icon={reduxImage}/>
-                    <Skill title="Rest API" icon={restapiImage}/>
-                    <Skill title="HTTP/HTTPS" icon={httpImage}/>
-                    <Skill title="HTML" icon={htmlImage}/>
-                    <Skill title="CSS" icon={cssImage}/>
-                    <Skill title="SASS" icon={sassImage}/>
-                    <Skill title="Material-UI" icon={materialImage}/>
-                    <Skill title="UNIT TESTS, TDD" icon={testImage}/>
-                    <Skill title="Storybook" icon={storybookImage}/>
-                    <Skill title="GitHub" icon={gitHubImage}/>
-                    <Skill title="GIT" icon={gitImage}/>
-                    <Skill title="Postman" icon={postmanImage}/>
-                </div>
+                <Fade>
+                    <div className={style.skills}>
+                        <Skill title="React" icon={reactImage}/>
+                        <Skill title="TypeScript" icon={tsImage}/>
+                        <Skill title="JavaScript" icon={jsImage}/>
+                        <Skill title="Redux" icon={reduxImage}/>
+                        <Skill title="Rest API" icon={restapiImage}/>
+                        <Skill title="HTTP/HTTPS" icon={httpImage}/>
+                        <Skill title="HTML" icon={htmlImage}/>
+                        <Skill title="CSS" icon={cssImage}/>
+                        <Skill title="SASS" icon={sassImage}/>
+                        <Skill title="Material-UI" icon={materialImage}/>
+                        <Skill title="UNIT TESTS, TDD" icon={testImage}/>
+                        <Skill title="Storybook" icon={storybookImage}/>
+                        <Skill title="GitHub" icon={gitHubImage}/>
+                        <Skill title="GIT" icon={gitImage}/>
+                        <Skill title="Postman" icon={postmanImage}/>
+                    </div>
+                </Fade>
             </div>
         </div>
     )
