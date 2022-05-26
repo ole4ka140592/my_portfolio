@@ -1,8 +1,8 @@
-import React from 'react';
-import style from './Contacts.module.scss';
+import React from "react";
+import style from "./Contacts.module.scss";
 import styleContainer from "../common/styles/Container.module.css";
 import {Title_h2} from "../common/components/title/Title_h2";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
 
 export const Contacts = () => {
@@ -18,7 +18,6 @@ export const Contacts = () => {
                         <button type="submit" className={style.button}>SEND MESSAGE</button>
                     </form>
                 </Fade>
-                {/*<a className={style.button}>Отправить</a>*/}
             </div>
         </div>
     )

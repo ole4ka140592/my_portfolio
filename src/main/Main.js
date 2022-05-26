@@ -1,11 +1,12 @@
-import React from 'react';
-import style from './Main.module.scss';
-import styleContainer from '../common/styles/Container.module.css';
-import ReactTypingEffect from 'react-typing-effect';
+import React from "react";
+import style from "./Main.module.scss";
+import styleContainer from "../common/styles/Container.module.css";
+import ReactTypingEffect from "react-typing-effect";
 // import Particles from "react-particles-js";
 // import Particles from 'react-particles-js';
 // import iImage from '../assets/image/I.jpg';
-import Zoom from 'react-reveal/Zoom';
+import Zoom from "react-reveal/Zoom";
+// import iImage from "../assets/image/I.jpg";
 
 export const Main = () => {
 
@@ -23,8 +24,6 @@ export const Main = () => {
 
     return (
         <div className={style.mainBlock}>
-
-
             {/*<Particles className={style.particles} params={particlesOpt}/>*/}
             <div className={styleContainer.container}>
                 <Zoom>

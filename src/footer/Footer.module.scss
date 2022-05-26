@@ -1,6 +1,7 @@
 @import "../common/styles/sass/variables";
 @import "../common/styles/sass/mixins";
 
+
 .footerBlock {
   font-family: 'Montserrat', sans-serif;
   background-color: $bgSecondColor;
@@ -26,7 +27,6 @@
           &:hover {
             background-color: #3b5998;
           }
-
         }
 
         .iconMonoLinkedin {
@@ -52,8 +52,6 @@
             background-color: #d54b1e;
           }
         }
-
-
       }
     }
   }

@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
-import style from './BurgerNav.module.scss';
-import {Link, animateScroll as scroll} from "react-scroll";
+import React, {useState} from "react";
+import style from "./BurgerNav.module.scss";
+import {Link} from "react-scroll";
 
 
 export const BurgerNav = () => {
@@ -14,7 +14,6 @@ export const BurgerNav = () => {
     return (
         <div className={style.burgerNav}>
             <div className={menuIsOpen ? style.show : style.burgerNavItems}>
-                {/*<div className={style.burgerNavItems}>*/}
                 <Link activeClass={style.navLink} className={style.navLink} to="" spy={true} smooth={true} offset={1}
                       duration={500}>
                     home page
@@ -37,8 +36,6 @@ export const BurgerNav = () => {
                 ? <div className={style.burgerBtn} onClick={onClickButton}>✗</div>
                 : <div className={style.burgerBtn} onClick={onClickButton}>☰</div>
             }
-            {/*<div className={style.burgerBtn} onClick={onClickButton}>☰</div>*/}
-
         </div>
     )
 }

@@ -1,5 +1,6 @@
 @import "../common/styles/sass/variables";
 
+
 .nav {
   width: 400px;
   display: flex;
@@ -36,29 +37,11 @@
       right: 0;
       transition: transform 0.2s cubic-bezier(0.4, 0, 0.21, 1.1), opacity 0.2s cubic-bezier(0.4, 0, 0.21, 1.1);
     }
-
   }
 }
 
 
-//.navLink {
-//    position: relative;
-//}
-//
-//.navLink:hover::after {
-//    width: 100%;
-//    height: 1px;
-//    content: '';
-//    background: #232323;
-//    position: absolute;
-//    bottom: 0;
-//    border-bottom: 2px solid;
-//    border-color: currentColor;
-//    left: 0;
-//    right: 0;
-//    transition: transform 0.2s cubic-bezier(0.4, 0, 0.21, 1.1), opacity 0.2s cubic-bezier(0.4, 0, 0.21, 1.1);
-//}
-//
+
 
 
 

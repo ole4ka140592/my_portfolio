@@ -1,12 +1,13 @@
-import React from 'react';
-import style from './Projects.module.scss';
+import React from "react";
+import style from "./Projects.module.scss";
 import styleContainer from "../common/styles/Container.module.css";
 import {Project} from "./project/Project";
 import {Title_h2} from "../common/components/title/Title_h2";
 import todolistImage from "../assets/image/todolist.jpg";
 import socialNetworkImage from "../assets/image/socialNetwork4.png";
 import brainstormImage from "../assets/image/brainstorm.png";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
+
 
 export const Projects = () => {
 

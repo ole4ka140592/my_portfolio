@@ -1,6 +1,7 @@
 @import "../../common/styles/sass/variables";
 @import "../../common/styles/sass/mixins";
 
+
 .project {
   border: 1px solid #f0f0f0;
   width: 450px;
@@ -27,13 +28,6 @@
     margin-bottom: 10px;
     position: relative;
 
-    //@media screen and (max-width: 360px) {
-    //  width: 100%;
-    //  height: 100%;
-    //  object-fit: cover;
-    //
-    //}
-
     &::before {
       position: absolute;
       content: "";
@@ -43,6 +37,7 @@
       right: 0;
     }
   }
+
   &:hover :before {
     background-color: $bgColor;
     position: absolute;
@@ -59,17 +54,12 @@
       width: 100%;
 
       .projectTitle {
-
-        //font-family: 'Montserrat', sans-serif;
-        //font-size: 20px;
-        //line-height: 1.1;
-        //color: $pramaryColor;
-
         @include projectTitle(20px, 1.1);
         margin-bottom: 5px;
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-top: 0;
+
         .link {
           color: $pramaryColor;
         }
@@ -77,12 +67,6 @@
     }
 
     .description {
-
-      //font-family: 'Open Sans', sans-serif;
-      //font-size: 14px;
-      //line-height: 22px;
-      //color: $textColor;
-
       @include text(14px, 22px);
 
       font-weight: normal;
@@ -102,11 +86,6 @@
     }
   }
 }
-
-//.div {
-//  width: 100%;
-//  height: 100%;
-//}
 
 
 

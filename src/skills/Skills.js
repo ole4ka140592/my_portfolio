@@ -1,6 +1,6 @@
-import React from 'react';
-import style from './Skills.module.scss';
-import styleContainer from '../common/styles/Container.module.css';
+import React from "react";
+import style from "./Skills.module.scss";
+import styleContainer from "../common/styles/Container.module.css";
 import {Skill} from "./skill/Skill";
 import {Title_h2} from "../common/components/title/Title_h2";
 import reactImage from "../assets/image/react.png";
@@ -18,7 +18,8 @@ import storybookImage from "../assets/image/storybook.png";
 import gitImage from "../assets/image/git.png";
 import gitHubImage from "../assets/image/github.png";
 import postmanImage from "../assets/image/postman.png";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
+
 
 export const Skills = () => {
     return (
