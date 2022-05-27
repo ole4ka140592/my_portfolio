@@ -35,6 +35,7 @@ export const Contacts = () => {
 
         onSubmit: values => {
             alert(JSON.stringify(values));
+            alert("Thank you for your message. I will definitely contact you")
             formik.resetForm()
         },
     })

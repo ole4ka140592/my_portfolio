@@ -38,16 +38,20 @@
     }
   }
 
-  &:hover :before {
-    background-color: $bgColor;
-    position: absolute;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0.4;
+  &:hover {
+    filter: opacity(50%)
   }
+
+  //&:hover :before {
+  //  background-color: $bgColor;
+  //  position: absolute;
+  //  content: "";
+  //  top: 0;
+  //  bottom: 0;
+  //  left: 0;
+  //  right: 0;
+  //  opacity: 0.4;
+  //}
 
   .projectInfo {
     .title {
