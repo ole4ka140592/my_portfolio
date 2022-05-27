@@ -4,20 +4,12 @@
 
 .mainBlock {
   height: 100vh;
-  background-color: $bgSecondColor;
+  background-color: #fff;
+  //background-color: #262626;
 
-  .particles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.3;
-  }
 
   .text {
     width: 350px;
-    background-color: white;
 
     @media screen and (max-width: 815px) {
       height: 30%;
