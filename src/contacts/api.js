@@ -1,6 +1,5 @@
 import axios from "axios";
 
-
 //api
 export const api = {
     sendMessage({name, email, message}) {

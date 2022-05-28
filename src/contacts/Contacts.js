@@ -30,7 +30,6 @@ export const Contacts = () => {
             if (values.message.length < 2) {
                 errors.message = 'Please, enter your message';
             }
-
             return errors;
         },
 
