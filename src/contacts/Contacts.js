@@ -35,7 +35,7 @@ export const Contacts = () => {
         },
 
         onSubmit: values => {
-            console.log(values)
+
             api.sendMessage(values)
                 .then(()=> {
                     alert("Thank you for your message. I will definitely contact you")
