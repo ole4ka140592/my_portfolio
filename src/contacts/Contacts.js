@@ -4,6 +4,7 @@ import styleContainer from "../common/styles/Container.module.css";
 import {Title_h2} from "../common/components/title/Title_h2";
 import Fade from "react-reveal/Fade";
 import {useFormik} from "formik";
+import {api} from "./api";
 
 
 export const Contacts = () => {
@@ -34,8 +35,11 @@ export const Contacts = () => {
         },
 
         onSubmit: values => {
-            alert(JSON.stringify(values));
-            alert("Thank you for your message. I will definitely contact you")
+            console.log(values)
+            api.sendMessage(values)
+                .then(()=> {
+                    alert("Thank you for your message. I will definitely contact you")
+                })
             formik.resetForm()
         },
     })
