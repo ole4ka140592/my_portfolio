@@ -22,11 +22,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
+
     background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 10px;
-    position: relative;
+
+    //position: relative;
+
+    @media screen and (max-width: 460px) {
+      background-position: center;
+      background-size: contain;
+      background-color: #fff;
+    }
 
     &::before {
       position: absolute;

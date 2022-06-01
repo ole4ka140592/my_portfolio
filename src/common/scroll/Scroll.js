@@ -21,6 +21,6 @@ export const Scroll = () => {
     }, []);
 
     return <>
-        {show && <button className={s.scroll} onClick={scrollFunction}>⃤</button>}
+        {show && <button className={s.scroll} onClick={scrollFunction}>&#8593;</button>}
     </>
 }
